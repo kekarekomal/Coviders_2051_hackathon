@@ -1,2 +1,6 @@
-# Side-Navigation-Bar
-How to Create the Side Navigation Bar Using HTML and CSS
+EXPLANATION 
+You will be given the following input points (real data points) for each ward: • Current Number of Active serious COVID-19 cases found in standalone apartments (n1) • Current Number of Active serious COVID-19 cases found in medium congested areas (n2) • Current Number of Active serious COVID-19 cases found in high congested areas (n3) • Population of each ward (p1) 
+Based on the above 3 numbers, the map of Mumbai, divided into wards (one can choose any map for the same that is available online or through any open source system), shall be shown in form of heat map, where each ward is represented through a specific colour: • Red: where ((n1*1.5+n2*2.6+n3*3.6)/p1)>=0.02% • Orange: where ((n1*1.5+n2*2.6+n3*3.6)/p1)>=0.01% and <0.02% • Blue: where ((n1*1.5+n2*2.6+n3*3.6)/p1)<0.01% and >0% • Green: where n1 or n2 or n3 is zero 
+We are using the official colour code used by MCGM for the above. The thresholds are decided based on the actual spread in Mumbai.  
+The threshold numbers may change so they should be easily editable in the back-end.  
+Create a heat map, keeping in mind the city commissioner and the state administration heads as the consumer of the same. Design and visualization is key as the map should be able to speak volumes in seconds.  
